@@ -1,0 +1,11 @@
+node_modules
+.env
+dist
+artifacts
+cache
+coverage
+typechain-types
+frontend/node_modules
+frontend/dist
+.DS_Store
+ignition/deployments
