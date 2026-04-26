@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/config.ts","./src/main.tsx","./src/components/diplomacard.tsx","./src/components/layout.tsx","./src/contract/abi.ts","./src/contract/usecontract.ts","./src/pages/admin.tsx","./src/pages/home.tsx","./src/pages/issuer.tsx","./src/pages/mydiploma.tsx","./src/pages/verify.tsx","./src/wallet/walletprovider.tsx"],"version":"5.9.3"}
