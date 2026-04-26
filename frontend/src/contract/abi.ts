@@ -1,0 +1,18 @@
+export const DIPLOMA_ABI = [
+  "function issueDiploma(address graduate, string studentName, string courseName, string diplomaURI) returns (uint256)",
+  "function revokeDiploma(uint256 tokenId)",
+  "function payToPrint(uint256 tokenId) payable",
+  "function setPrintFee(uint256 newFeeWei)",
+  "function setTreasury(address newTreasury)",
+  "function verifyDiploma(uint256 tokenId) view returns (bool exists, bool valid, string studentName, string courseName, uint256 issueDate, address graduate, uint256 printCount, uint256 lastPrintDate)",
+  "function diplomaOf(address) view returns (uint256)",
+  "function tokenURI(uint256 tokenId) view returns (string)",
+  "function printFeeWei() view returns (uint256)",
+  "function treasury() view returns (address)",
+  "function hasRole(bytes32 role, address account) view returns (bool)",
+  "function ISSUER_ROLE() view returns (bytes32)",
+  "function DEFAULT_ADMIN_ROLE() view returns (bytes32)",
+  "event DiplomaIssued(uint256 indexed tokenId, address indexed graduate, string studentName, string courseName)",
+  "event DiplomaRevoked(uint256 indexed tokenId)",
+  "event DiplomaPrintPaid(uint256 indexed tokenId, address indexed graduate, uint256 amount, uint256 timestamp)",
+];
